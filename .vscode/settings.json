@@ -1,0 +1,25 @@
+{
+  "python.defaultInterpreterPath": "C:/Users/user1/AppData/Local/Programs/Python/Python310/python.exe",
+  "python.pythonPath": "C:/Users/user1/AppData/Local/Programs/Python/Python310/python.exe",
+  "python.linting.enabled": false,
+  "python.linting.pylintEnabled": false,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python",
+    "editor.formatOnSave": false
+  },
+  "python.analysis.typeCheckingMode": "off",
+  "python.analysis.diagnosticMode": "workspace",
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}"
+  ],
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.fixAll": ["source.unusedImports"],
+  "python.analysis.inlayHints.functionReturnTypes": false,
+  "python.analysis.inlayHints.parameterTypes": false,
+  "python.analysis.inlayHints.variableTypes": false,
+  "editor.codeActionsOnSave": {},
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/*.pyc": true
+  }
+}
